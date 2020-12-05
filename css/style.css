@@ -113,7 +113,7 @@ main {
   margin-top: 60px;
 }
 
-h1 {
+.catch {
   font-family: "Dosis", sans-serif;
   font-weight: normal;
   border: 1px solid black;
@@ -128,7 +128,7 @@ h1 {
   font-size: min(6vw, 50px);
 }
 
-h2 {
+.h2 {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
   text-align: center;
@@ -141,7 +141,7 @@ h2 {
   padding-top: 80px;
 }
 
-h2::after {
+.h2::after {
   position: absolute;
   content: "";
   height: 20%;
@@ -150,6 +150,16 @@ h2::after {
   top: 12px;
   left: 20px;
   margin: 80px 0;
+}
+
+.profile:after {
+  background: #da39df;
+}
+.works:after {
+  background: #88c41f;
+}
+.contact:after {
+  background: #34d5bf;
 }
 
 .profile_box {
@@ -180,9 +190,6 @@ h2::after {
 
 .profile_box .self_introduction p {
   margin: 0;
-}
-
-.profile_box .self_introduction .name {
 }
 
 .profile_box .self_introduction .name p:first-child {
@@ -260,12 +267,43 @@ h2::after {
   height: auto;
 }
 
-.overlay_01 p {
-  background-color: #333;
-  padding: 15px 20px;
-  width: 100px;
+.overlay_01 h1 {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  width: 100vw;
   text-align: center;
-  color: #fff;
+  margin: 0;
+  padding: 10px;
+}
+
+.overlay_01 h2 {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  width: 100vw;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.overlay_01 h3 {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  width: 100vw;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.overlay_01 p {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  width: 100vw;
+  text-align: center;
+  margin: 0;
 }
 
 footer {
@@ -401,7 +439,7 @@ footer .copy {
     display: none;
   }
 
-  h1 {
+  .catch {
     width: min(60vw, 900px);
     height: min(60vw, 900px);
     font-size: min(4vw, 50px);
