@@ -274,7 +274,7 @@ main {
   width: 100vw;
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .overlay_01 h2 {
@@ -284,7 +284,7 @@ main {
   width: 100vw;
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .overlay_01 h3 {
@@ -294,7 +294,7 @@ main {
   width: 100vw;
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .overlay_01 p {
@@ -468,15 +468,43 @@ footer .copy {
   }
 
   .overlay_flex_01 {
-    display: flex;
-    justify-content: center;
     flex-flow: row;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
   }
 
   .overlay_01 img {
-    background-color: #fff;
-    height: 100vh;
+    height: 70vh;
     width: auto;
+  }
+
+  .overlay_01 .explanation_box {
+    height: 70vh;
+    background-color: #fff;
+  }
+
+  .overlay_01 h1 {
+    width: auto;
+  }
+
+  .overlay_01 h2 {
+    width: auto;
+
+  }
+
+  .overlay_01 h3 {
+    width: auto;
+
+  }
+
+  .overlay_01 p {
+    width: auto;
+
   }
 
   footer .contact_container {
