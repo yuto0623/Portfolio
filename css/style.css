@@ -213,11 +213,46 @@ h2::after {
   width: 100%;
 }
 
+footer {
+  background: #34d5bf;
+  width: 100%;
+  left: 0;
+  position: absolute;
+}
+footer .contact_container {
+  background-color: #fff;
+  margin: 40px 10vw;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+footer .contact_container img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+footer .contact_container p {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer .contact_container p span {
+  margin-left: 20px;
+}
+
+footer .contact_container .dummy {
+  width: 50px;
+  background: rgba(0, 0, 0, 0);
+}
+
 #page-top a {
   display: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   body {
     margin: 30px 10vw 0 10vw;
   }
@@ -310,6 +345,10 @@ h2::after {
     width: min(60vw, 450px);
   }
 
+  footer .contact_container {
+    margin: 40px 70px;
+  }
+
   #page-top {
     position: fixed;
     bottom: 20px;
@@ -326,6 +365,7 @@ h2::after {
     box-sizing: border-box;
     padding: 20px;
     cursor: pointer;
+    margin: 0;
   }
 
   #page-top::after {
