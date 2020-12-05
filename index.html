@@ -11,10 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+      rel="stylesheet"
+    />
     <!-- jqueryの読み込み -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <meta name="description" content="portfolio">
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <meta name="description" content="portfolio" />
     <title>portfolio</title>
   </head>
   <body>
@@ -23,9 +30,15 @@
       <nav>
         <ul id="hamburger-content">
           <li class="top"><a href="#top" class="hamburger-list">TOP</a></li>
-          <li class="profile"><a href="#profile" class="hamburger-list">PROFILE</a></li>
-          <li class="works"><a href="#works" class="hamburger-list">WORKS</a></li>
-          <li class="contact"><a href="#contact" class="hamburger-list">CONTACT</a></li>
+          <li class="profile">
+            <a href="#profile" class="hamburger-list">PROFILE</a>
+          </li>
+          <li class="works">
+            <a href="#works" class="hamburger-list">WORKS</a>
+          </li>
+          <li class="contact">
+            <a href="#contact" class="hamburger-list">CONTACT</a>
+          </li>
         </ul>
       </nav>
       <div id="target" class="hamburger-container">
@@ -38,7 +51,7 @@
       <h2 id="profile" class="profile">PROFILE</h2>
       <div class="profile_box">
         <div class="icon_box">
-          <img src="img/icon.png" alt="プロフィール画像" class="icon">
+          <img src="img/icon.png" alt="プロフィール画像" class="icon" />
         </div>
         <div class="self_introduction">
           <div class="name">
@@ -53,71 +66,39 @@
         </div>
         <div class="skill_box">
           <p>SKILL</p>
-          <img src="img/skill_box.png" alt="" class="skill_img">
+          <img src="img/skill_box.png" alt="" class="skill_img" />
         </div>
       </div>
 
       <h2 id="works" class="works">WORKS</h2>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
+      <div class="works_container">
+        <div class="works_box works_box_01">
+          <img src="img/works_01_mini.png" alt="" />
+          <p>学生作品展 2021ポスター</p>
+          <p>DESIGN</p>
+        </div>
+        <div class="overlay overlay_01">
+          <div class="overlay_flex_01">
+            <img src="img/works_01.png" alt="" />
+            <p>sample text</p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="contact_container">
-        <img src="img/mail_icon.png" alt="メールのアイコン">
-        <p id="contact">CONTACT<span></span>US</p>
-        <span class="dummy"></span>
+        <a href="mailto:yuto.ryr0623@gmail.com">
+          <img src="img/mail_icon.png" alt="メールのアイコン" />
+          <p id="contact">CONTACT<span></span>US</p>
+          <span class="dummy"></span>
+        </a>
       </div>
+      <p class="copy">©Yuto Shintani</p>
       <p id="page-top"><a href="#top"></a></p>
     </footer>
     <!-- javascriptの読み込み -->
     <script src="js/hamburger.js"></script>
     <script src="js/button.js"></script>
+    <script src="js/overlay.js"></script>
   </body>
 </html>

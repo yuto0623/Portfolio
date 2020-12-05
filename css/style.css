@@ -206,11 +206,66 @@ h2::after {
   font-size: min(6vw, 30px);
   font-weight: 500;
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .profile_box .skill_box .skill_img {
   width: 100%;
+}
+
+.works_container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.works_container .works_box {
+  margin: 0 20px 20px 20px;
+  cursor: pointer;
+}
+
+.works_container .works_box img {
+  width: min(70vw, 400px);
+  border: 1px solid #707070;
+}
+
+.works_container .works_box p {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.overlay_01 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.overlay_flex_01 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.overlay_01 img {
+  background-color: #fff;
+  width: 100vw;
+  height: auto;
+}
+
+.overlay_01 p {
+  background-color: #333;
+  padding: 15px 20px;
+  width: 100px;
+  text-align: center;
+  color: #fff;
 }
 
 footer {
@@ -219,40 +274,60 @@ footer {
   left: 0;
   position: absolute;
 }
+
 footer .contact_container {
   background-color: #fff;
-  margin: 40px 10vw;
+  margin: 40px 10vw 10px 10vw;
+  transition: 0.5s;
+}
+
+footer .contact_container:hover {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6));
+  transition: 0.5s;
+}
+
+footer .contact_container a {
+  width: 100%;
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
   height: 50px;
   align-items: center;
+  color: #000;
 }
 
-footer .contact_container img {
+footer .contact_container a img {
   width: 40px;
   margin-left: 10px;
 }
 
-footer .contact_container p {
+footer .contact_container a p {
   font-family: "Dosis", "Noto Sans JP", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
 
-footer .contact_container p span {
+footer .contact_container a p span {
   margin-left: 20px;
 }
 
-footer .contact_container .dummy {
+footer .contact_container a .dummy {
   width: 50px;
   background: rgba(0, 0, 0, 0);
+}
+
+footer .copy {
+  font-family: "Dosis", "Noto Sans JP", sans-serif;
+  color: #707070;
+  text-align: center;
+  margin: 0 0 10px 0;
 }
 
 #page-top a {
   display: none;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 769px) {
   body {
     margin: 30px 10vw 0 10vw;
   }
@@ -289,11 +364,16 @@ footer .contact_container .dummy {
     margin: 0 10px 0 30px;
   }
 
+  header nav ul li:hover {
+    left: 5px;
+    top: 5px;
+  }
+
   header nav ul li a {
     padding: 0;
   }
 
-  header nav ul li:after {
+  header nav ul li::after {
     position: absolute;
     content: "";
     height: 80%;
@@ -345,8 +425,24 @@ footer .contact_container .dummy {
     width: min(60vw, 450px);
   }
 
+  .profile_box .skill_box p {
+    margin: 0 0 10px 0;
+  }
+
+  .overlay_flex_01 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+  }
+
+  .overlay_01 img {
+    background-color: #fff;
+    height: 100vh;
+    width: auto;
+  }
+
   footer .contact_container {
-    margin: 40px 70px;
+    margin: 40px 70px 10px 70px;
   }
 
   #page-top {
