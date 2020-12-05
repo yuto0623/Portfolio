@@ -159,7 +159,7 @@ h2::after {
   header {
     align-items: center;
     position: relative;
-    z-index: -5;
+    z-index: 1;
   }
 
   header .logo {
@@ -171,6 +171,11 @@ h2::after {
     flex-flow: row;
     position: relative;
     top: 0;
+  }
+
+  header nav ul.open {
+    top: 0;
+    transition: 0.5s;
   }
 
   header nav ul li {
