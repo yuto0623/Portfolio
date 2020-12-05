@@ -157,11 +157,16 @@ h2::after {
   flex-flow: column;
 }
 
-.profile_box .icon {
+.profile_box .icon_box {
   width: 250px;
   height: 250px;
   border: 1px solid;
   border-radius: 50%;
+}
+
+.profile_box .icon_box .icon {
+  width: 100%;
+  height: 100%;
 }
 
 .profile_box .self_introduction {
