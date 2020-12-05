@@ -243,7 +243,7 @@ main {
   margin: 0;
 }
 
-.overlay_01 {
+.overlay {
   display: none;
   width: 100%;
   height: 100%;
@@ -255,19 +255,19 @@ main {
   background: rgba(0, 0, 0, 0.9);
 }
 
-.overlay_flex_01 {
+.overlay_flex {
   display: flex;
   justify-content: center;
   flex-flow: column;
 }
 
-.overlay_01 img {
+.overlay img {
   background-color: #fff;
   width: 100vw;
   height: auto;
 }
 
-.overlay_01 h1 {
+.overlay h1 {
   font-family: "Dosis", "Noto Sans JP", sans-serif;
   font-weight: 500;
   background-color: #fff;
@@ -277,7 +277,7 @@ main {
   padding: 10px 0;
 }
 
-.overlay_01 h2 {
+.overlay h2 {
   font-family: "Dosis", "Noto Sans JP", sans-serif;
   font-weight: 500;
   background-color: #fff;
@@ -287,7 +287,7 @@ main {
   padding: 10px 0;
 }
 
-.overlay_01 h3 {
+.overlay h3 {
   font-family: "Dosis", "Noto Sans JP", sans-serif;
   font-weight: 500;
   background-color: #fff;
@@ -297,7 +297,7 @@ main {
   padding: 10px 0;
 }
 
-.overlay_01 p {
+.overlay p {
   font-family: "Dosis", "Noto Sans JP", sans-serif;
   font-weight: 500;
   background-color: #fff;
@@ -467,7 +467,7 @@ footer .copy {
     margin: 0 0 10px 0;
   }
 
-  .overlay_flex_01 {
+  .overlay_flex {
     flex-flow: row;
     align-items: center;
     position: absolute;
@@ -478,33 +478,35 @@ footer .copy {
     margin: auto;
   }
 
-  .overlay_01 img {
+  .overlay.tate img {
     height: 70vh;
     width: auto;
   }
 
-  .overlay_01 .explanation_box {
+  .overlay.yoko img {
+    width: 70vw;
+    height: auto;
+  }
+
+  .overlay .explanation_box {
     height: 70vh;
     background-color: #fff;
   }
 
-  .overlay_01 h1 {
+  .overlay h1 {
     width: auto;
   }
 
-  .overlay_01 h2 {
+  .overlay h2 {
     width: auto;
-
   }
 
-  .overlay_01 h3 {
+  .overlay h3 {
     width: auto;
-
   }
 
-  .overlay_01 p {
+  .overlay p {
     width: auto;
-
   }
 
   footer .contact_container {

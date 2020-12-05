@@ -6,3 +6,9 @@ $(function() {
         $(".overlay").fadeOut();　/*ふわっと消える*/
 });
 });
+
+$(function() {
+  $(".works_box_02").click(function() {
+        $(".overlay_02").fadeIn();　/*ふわっと表示*/
+});
+});
