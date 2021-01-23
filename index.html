@@ -21,11 +21,12 @@
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
     <meta
       name="description"
       content="新谷悠人のポートフォリオです。試しに上げてみました。"
     />
-    <title>portfolio</title>
+    <title>PORTFOLIO 広島の専門学生のポートフォリオです。</title>
   </head>
   <body>
     <header>
@@ -49,6 +50,12 @@
       </div>
     </header>
     <main>
+      <div id="loaderBg" class="isHide">
+        <div id="loader" class="isHide">
+          <p><img src="img/loading.gif" alt="" /></p>
+          <p>NOW LOADING</p>
+        </div>
+      </div>
       <div id="top"></div>
       <h1 class="catch">Welcome to my Portfolio</h1>
       <h2 id="profile" class="h2 profile">PROFILE</h2>
@@ -158,5 +165,6 @@
     <script src="js/hamburger.js"></script>
     <script src="js/button.js"></script>
     <script src="js/overlay.js"></script>
+    <script src="js/loader.js"></script>
   </body>
 </html>
