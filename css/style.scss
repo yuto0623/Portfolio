@@ -183,6 +183,13 @@ header {
   padding-top: 60px;
 }
 
+main {
+  margin-top: 60px;
+  @include pc {
+    margin-top: 0;
+  }
+}
+
 .catch {
   font-family: "Dosis", sans-serif;
   font-weight: normal;

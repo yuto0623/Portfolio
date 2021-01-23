@@ -240,6 +240,16 @@ header .hamburger-container .hamburger.active::after {
   padding-top: 60px;
 }
 
+main {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 769px) {
+  main {
+    margin-top: 0;
+  }
+}
+
 .catch {
   font-family: "Dosis", sans-serif;
   font-weight: normal;
