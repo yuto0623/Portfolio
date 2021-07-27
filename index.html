@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- スタイルシートの読み込み -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- webフォントの読み込み -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" />
+  <!-- jqueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="img/icon.png" />
+  <meta name="description" content="新谷悠人のポートフォリオです。試しに上げてみました。" />
+  <title>PORTFOLIO 広島の専門学生のポートフォリオです。</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" alt="ポートフォリオ" class="logo" />
+    <nav>
+      <ul id="hamburger-content">
+        <li class="top"><a href="#top" class="hamburger-list">TOP</a></li>
+        <li class="profile">
+          <a href="#profile" class="hamburger-list">PROFILE</a>
+        </li>
+        <li class="works">
+          <a href="#works" class="hamburger-list">WORKS</a>
+        </li>
+        <li class="contact">
+          <a href="#contact" class="hamburger-list">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="target" class="hamburger-container">
+      <span id="hamburger" class="hamburger"></span>
+    </div>
+  </header>
+  <main>
+    <div id="loaderBg" class="isHide">
+      <div id="loader" class="isHide">
+        <p><img src="img/loading.gif" alt="" /></p>
+        <p>NOW LOADING</p>
+      </div>
+    </div>
+    <div id="top"></div>
+    <h1 class="catch">Welcome to my Portfolio</h1>
+    <h2 id="profile" class="h2 profile">PROFILE</h2>
+    <div class="profile_box">
+      <div class="icon_box">
+        <img src="img/face.png" alt="プロフィール画像" class="icon" />
+      </div>
+      <div class="self_introduction">
+        <div class="name">
+          <p>新谷悠人</p>
+          <p>Shintani Yuto</p>
+        </div>
+        <p class="birthday">2001/06/23</p>
+        <div class="affiliation">
+          <p>広島コンピュータ専門学校</p>
+          <p>Webデザインコース</p>
+        </div>
+        <div class="qualification">
+          <h3>資格</h3>
+          <p>3級 ウェブデザイン技能士</p>
+          <p>ホームページ作成検定 1級</p>
+          <p>色彩士検定 3級</p>
+          <p>CGクリエイター検定 ベーシック</p>
+          <p>ビジネス能力検定ジョブパス 3級</p>
+        </div>
+      </div>
+      <div class="skill_box">
+        <p class="skillP">SKILL</p>
+        <p>HTML ,CSS ,JAVASCRIPT</p>
+        <p>Illustrator</p>
+        <p>Photoshop</p>
+      </div>
+    </div>
+
+    <h2 id="works" class="h2 works">WORKS</h2>
+    <div class="works_container">
+      <div class="works_box works_box_01">
+        <img src="img/works_01_mini.png" alt="" />
+        <p>学生作品展 2021ポスター</p>
+        <p>DESIGN</p>
+      </div>
+      <div class="overlay tate overlay_01">
+        <div class="overlay_flex">
+          <img src="img/works_01.png" alt="" />
+          <div class="explanation_box">
+            <h1>DESIGN</h1>
+            <h2>「学生作品展 2021ポスター」</h2>
+            <p>キャッチコピーを目立たせたかったので</p>
+            <p>大きく色も派手なデザインにしました。</p>
+            <h3>製作期間</h3>
+            <p>約一ヶ月</p>
+            <h3>制作環境</h3>
+            <p>Illustrator</p>
+            <p>タップ（クリック）すると画面が戻ります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="works_box works_box_02">
+        <img src="img/works_02_mini.png" alt="" />
+        <p>架空の本のブックカバーデザイン</p>
+        <p>DESIGN</p>
+      </div>
+      <div class="overlay tate overlay_02">
+        <div class="overlay_flex">
+          <img src="img/works_02.png" alt="" />
+          <div class="explanation_box">
+            <h1>DESIGN</h1>
+            <h2>「架空の本のブックカバーデザイン」</h2>
+            <p></p>
+            <p></p>
+            <h3>製作期間</h3>
+            <p>約一ヶ月</p>
+            <h3>制作環境</h3>
+            <p>Illustrator, Photoshop</p>
+            <p>タップ（クリック）すると画面が戻ります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="works_box works_box_05">
+        <img src="img/works_05_mini.jpg" alt="" />
+        <p>CD ジャケットデザイン</p>
+        <p>DESIGN</p>
+      </div>
+      <div class="overlay tate overlay_05">
+        <div class="overlay_flex">
+          <img src="img/works_05.png" alt="" />
+          <div class="explanation_box">
+            <h1>DESIGN</h1>
+            <h2>「CD ジャケットデザイン」</h2>
+            <p>実際にあるCDで違うデザインを制作しました。</p>
+            <p>
+              ICE
+              AGEというタイトルだったので散布ブラシを使い雪を表現しました。
+            </p>
+            <h3>製作期間</h3>
+            <p>約一ヶ月</p>
+            <h3>制作環境</h3>
+            <p>Illustrator</p>
+            <p>タップ（クリック）すると画面が戻ります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="works_box works_box_03">
+        <img src="img/works_03_mini.png" alt="" />
+        <p>架空のカフェのホームページ</p>
+        <p>WEB</p>
+      </div>
+      <div class="overlay tate overlay_03">
+        <div class="overlay_flex">
+          <img src="img/works_03.png" alt="" />
+          <div class="explanation_box">
+            <h1>WEB</h1>
+            <h2>「架空のカフェのホームページ」</h2>
+            <p>落ち着くデザインにしたかったので</p>
+            <p>暖色を使用しました。</p>
+            <p>
+              <a href="https://yuto0623.github.io/test/index.html" target="_blank" rel="noopener noreferrer">リンク</a>
+            </p>
+            <h3>製作期間</h3>
+            <p>約一ヶ月</p>
+            <h3>制作環境</h3>
+            <p>Illustrator, Photoshop, Adobe XD, VSCode</p>
+            <p>タップ（クリック）すると画面が戻ります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="works_box works_box_04">
+        <img src="img/works_04_mini.png" alt="" />
+        <p>架空の和菓子屋のホームページ</p>
+        <p>WEB</p>
+      </div>
+      <div class="overlay tate overlay_04">
+        <div class="overlay_flex">
+          <img src="img/works_04.png" alt="" />
+          <div class="explanation_box">
+            <h1>WEB</h1>
+            <h2>「架空の和菓子屋のホームページ」</h2>
+            <p></p>
+            <p></p>
+            <p>
+              <a href="https://yuto0623.github.io/kakudo/" target="_blank" rel="noopener noreferrer">リンク</a>
+            </p>
+            <h3>製作期間</h3>
+            <p>約一ヶ月</p>
+            <h3>制作環境</h3>
+            <p>Illustrator, Photoshop, Adobe XD, VSCode</p>
+            <p>タップ（クリック）すると画面が戻ります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="works_box works_box_06">
+        <img src="img/works_06_mini.png" alt="" />
+        <p>学生作品展予告サイト</p>
+        <p>WEB</p>
+      </div>
+      <div class="overlay tate overlay_06">
+        <div class="overlay_flex">
+          <img src="img/works_06.png" alt="" />
+          <div class="explanation_box">
+            <h1>WEB</h1>
+            <h2>「学生作品展予告サイト」</h2>
+            <p>学生作品展の予告サイトを作ることになったので、</p>
+            <p>コーディングを担当しました。</p>
+            <p>illustratorのデータをSVGにして</p>
+            <p>アニメーションさせる所に力を入れました。</p>
+            <p>
+              <a href="https://yuto0623.github.io/yokoku/" target="_blank" rel="noopener noreferrer">リンク</a>
+            </p>
+            <h3>製作期間</h3>
+            <p>約一ヶ月</p>
+            <h3>制作環境</h3>
+            <p>Illustrator, Adobe XD, VSCode</p>
+            <p>タップ（クリック）すると画面が戻ります。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contact_container">
+      <a href="mailto:yuto.ryr0623@gmail.com">
+        <img src="img/mail_icon.png" alt="メールのアイコン" />
+        <p id="contact">CONTACT<span></span>US</p>
+        <span class="dummy"></span>
+      </a>
+    </div>
+    <p class="copy">©Yuto Shintani</p>
+    <p id="page-top"><a href="#top"></a></p>
+  </footer>
+  <!-- javascriptの読み込み -->
+  <script src="js/hamburger.js"></script>
+  <script src="js/button.js"></script>
+  <script src="js/overlay.js"></script>
+  <script src="js/loader.js"></script>
+</body>
+
+</html>
